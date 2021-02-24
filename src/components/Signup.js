@@ -61,9 +61,7 @@ const Signup = () => {
     
         <form>
           <div className="form-group">
-            <label  className="email2">
-              FULL NAME{" "}
-            </label>
+          
             <input
               type="text"
               className="form-control"
@@ -73,9 +71,7 @@ const Signup = () => {
             />
           </div>
           <div className="form-group">
-            <label  className="password">
-              EMAIL
-            </label>
+           
             <input
               type="email"
               className="form-control"
@@ -86,9 +82,7 @@ const Signup = () => {
           </div>
 
           <div className="form-group">
-            <label  className="password">
-              PASSWORD
-            </label>
+       
             <input
               type="password"
               className="form-control"
@@ -98,10 +92,7 @@ const Signup = () => {
             />
           </div>
           <div className="form-group">
-            <label  className="password">
-              {" "}
-              CONFIRM PASSWORD
-            </label>
+          
             <input
               type="password"
               className="form-control"
