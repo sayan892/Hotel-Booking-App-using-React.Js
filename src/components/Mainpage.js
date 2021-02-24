@@ -69,9 +69,6 @@ const Mainpage = () => {
         <form>
  
           <div className="form-group">
-            <label  className="email2">
-              EMAIL ADDRESS
-            </label>
             <input
               type="email"
               className="form-control"
@@ -81,9 +78,6 @@ const Mainpage = () => {
             />
           </div>
           <div className="form-group">
-            <label  className="password">
-              PASSWORD
-            </label>
             <input 
               type="password"
               className="form-control"
