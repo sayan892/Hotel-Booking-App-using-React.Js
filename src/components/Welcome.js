@@ -1,5 +1,5 @@
 import React from 'react'
-import { useHistory, Link } from "react-router-dom";
+import { useHistory} from "react-router-dom";
 import logo from '../animations/Pinpoinx.png'
 import Anime2 from '../images/Anime2.png';
 
@@ -9,7 +9,7 @@ const Welcome = () => {
     const homepage = () => history.push("home");
     return(
         <div className="row welcomebg" style={{height:"814px"}}>
-            <a class="signin-logo" href="#"> 
+            <a class="signin-logo" href="/#"> 
             <img src={logo}
                 width="180" height="160" alt="" /> 
             </a> 
