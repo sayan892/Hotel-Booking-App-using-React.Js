@@ -1,0 +1,7 @@
+.app__header {
+    display: flex;
+   align-items: center;
+   margin-bottom:40px;
+   text-align: center;
+    
+  }

@@ -1,0 +1,23 @@
+div.loading-screen {
+  background:linear-gradient( #ad7ffb, #f594b7);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+
+/*.sprite {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/13060/explode-sprite.png');
+    transform: scale(1);    
+    animation: play 1s steps(16) infinite;
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1024px; }
+}*/
